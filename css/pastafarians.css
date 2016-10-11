@@ -167,7 +167,7 @@ header .intro-text .intro-lead-in {
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-  font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 50px;
@@ -224,11 +224,19 @@ section h3.section-subheading {
   text-transform: none;
 }
 
-.value-photo {
+.value-photo-small {
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.value-photo-big {
     position: relative;
     margin-bottom: 30px;
     left: 50%;
-    margin-left: -100px;
+    margin-left: -180px;
 }
 
 .team-member {
