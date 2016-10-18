@@ -312,6 +312,9 @@ section h3.section-subheading {
   list-style: none;
   padding: 0;
   position: relative;
+    color: #FCFBEE;
+    
+  background-color:  #FFD700;
 }
 .pres:before {
   top: 0;
@@ -319,7 +322,7 @@ section h3.section-subheading {
   position: absolute;
   content: "";
   width: 2px;
-  background-color: #f1f1f1;
+  background-color:  #FCFBEE;
   left: 40px;
   margin-left: -1.5px;
 }
@@ -362,10 +365,10 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #fed136;
+  background-color: #FFD700;
   color: white;
   border-radius: 100%;
-  border: 7px solid #f1f1f1;
+  border: 7px solid #FCFBEE;
   text-align: center;
 }
 .pres > li .timeline-image h4 {
