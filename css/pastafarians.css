@@ -63,6 +63,16 @@ h6 {
   font-weight: 700;
 }
 
+.btn-inverse {
+    color: #FFD700;
+    background-color: white;
+  border-color: white;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+    border-radius: 200px;
+}
+
 .btn-xl {
   color: white;
   background-color: #fed136;
@@ -111,6 +121,8 @@ fieldset[disabled] .btn-xl.active {
   color: #FFD700;
   background-color: white;
 }
+
+
 
 .navbar-custom {
   background-color: #26211F;
@@ -279,14 +291,14 @@ section h3.section-subheading {
 .value-photo {
     position: relative;
     margin-bottom: 30px;
-    margin-top: 80px;
+    margin-top: 30px;
     left: 50%;
     margin-left: -100px;
 }
 
 .team-member {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .team-member img {
   margin: 0 auto;
@@ -308,13 +320,16 @@ section h3.section-subheading {
 /**************************************/
 /**************************************/
 
+.pres-container {
+  background-color:  #FFD700;
+}
+
 .pres {
   list-style: none;
   padding: 0;
   position: relative;
     color: #FCFBEE;
     
-  background-color:  #FFD700;
 }
 .pres:before {
   top: 0;
@@ -407,6 +422,12 @@ section h3.section-subheading {
 .pres .timeline-body > ul {
   margin-bottom: 0;
 }
+
+.timeline-download {
+    margin-top: 30px;
+}
+
+
 @media (min-width: 768px) {
   .pres:before {
     left: 50%;
